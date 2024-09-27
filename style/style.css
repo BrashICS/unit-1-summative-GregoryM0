@@ -1,0 +1,13 @@
+body { 
+    text-align: center;
+}
+table, th, td, tr {
+    text-align: justify;
+    text-align: center;
+  }
+  table.center {
+    margin-left: 0auto;
+    margin-right: 0auto;
+}
+h1 {
+  
