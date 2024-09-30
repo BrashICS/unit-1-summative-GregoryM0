@@ -1,17 +1,26 @@
 body { 
     text-align: center;
 }
+
+
+
 table, th, td, tr {
     text-align: justify;
     text-align: center;
   }
+
+
+
   table.center {
     margin-left: 0auto;
     margin-right: 0auto;
 }
+
+
+
 /* Dropdown Button */
 .dropbtn {
-  background-color: #000000;
+  background-color: #80bbff;
   color: rgb(235, 235, 235);
   padding: 16px;
   font-size: 16px;
@@ -28,9 +37,9 @@ table, th, td, tr {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #4e4e4e;
+  background-color: #80bbff;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(170, 89, 89, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(129, 69, 69, 0.2);
   z-index: 1;
 }
 
@@ -50,9 +59,31 @@ table, th, td, tr {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #000000;}
-body {
-  background: rgb(113, 170, 165) /* black background with 30% opacity */
-}
+
+
+
 h1 {
-  background-color: rgb(0, 0, 0); color: #8b8897; display: inline;
+  background-color: #80bbff; color: #ffdada; display: inline;
 }
+
+
+
+body {background-image: url(../images/Background.webp);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+.container 
+    {
+        box-shadow: 20px 20px #000000;
+        text-shadow: 3px 3px #ffffff;
+        width: 1400px;
+        height:400px;
+        border: 3px solid;
+        padding: 10px;
+        margin: 50px;
+        text-align:left;
+        font-size: large;
+        float: right;
+     }
