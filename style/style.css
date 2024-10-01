@@ -15,26 +15,14 @@ table, th, td, tr {
 
 
 h1 {
-  background-color: #80bbff; color: #ffdada; display: inline;
+  background-color: #80bbff; color: #000000; display: inline;
+  box-shadow: 4px 3px #000000;
 }
 
 
 
-body {background-image: url(../images/background.webp);
+body {
+ background-image: url(../images/background.webp);
 background-repeat: no-repeat;
 background-size: cover;
-
-
-.container 
-    {
-        box-shadow: 20px 20px #000000;
-        text-shadow: 3px 3px #ffffff;
-        width: 1400px;
-        height:400px;
-        border: 3px solid;
-        padding: 10px;
-        margin: 50px;
-        text-align:left;
-        font-size: large;
-        float: right;
-     }
+}
