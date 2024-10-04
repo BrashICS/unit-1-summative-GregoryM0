@@ -1,0 +1,31 @@
+body { 
+    text-align: center;
+}
+
+table, th, td, tr {
+    text-align: justify;
+    text-align: center;
+  }
+
+
+  table.center {
+    margin-left: 0auto;
+    margin-right: 0auto;
+}
+
+
+h1 {
+  background-color: #80bbff; color: #000000; display: inline;
+  box-shadow: 4px 3px #000000;
+}
+
+
+
+body {
+ background-image: url(../images/backgroun3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+ul, li {
+  font-size: large;
+}
